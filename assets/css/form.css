@@ -1,4 +1,4 @@
-body, html {
+/*body, html {
     margin: 0;
     padding: 0;
 }
@@ -18,5 +18,8 @@ body, html {
     border: 2px solid;
     margin-bottom: 10px;
 }
+*/
 
-.contact .contactForm input
+body {
+    background-color: #221333;
+}

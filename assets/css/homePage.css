@@ -1,0 +1,58 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color:black;
+  color: white
+}
+
+video {
+  position: relative;
+  margin-left: 5%;
+  height: 90%;
+  width: 90%;
+}
+.titleBG {
+  position: absolute;
+  height: 60%;
+  width: 50%;
+  top: 25%;
+  left: 25%;
+}
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(16,16,16,0.8);
+  position: -webkit-sticky; /* Safari */
+  box-shadow: 2px 2px 2px 2px black;
+  position: sticky;
+  top: 30px;
+}
+
+.navBar li {
+  float: right;
+}
+
+.navBar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.navBar a:focus {
+  background-color:#151515;
+  opacity: 0.8;
+  color: #c87c60
+}
+.navBar a:hover {
+  background-color: #111;
+  opacity: 0.8;
+}
+.navBar a:active {
+  background-color:#252525;
+  opacity: 0.8;
+}

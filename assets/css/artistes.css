@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.artistContent {
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.artistCard {
+    width: 350px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.artistArticle {
+    background: #FFF;
+    font-family: Helvetica, sans-serif;
+}
+
+.artistPicture {
+	filter: grayscale(100%);
+    transition: .3s ease-in-out;
+}
+
+.artistPicture:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+}

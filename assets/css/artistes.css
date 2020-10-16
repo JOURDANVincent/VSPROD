@@ -21,36 +21,34 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     text-align: justify;
-
     /*padding-right: auto;*/
 }
 
 .artistContent {
-    width: 100%;
-    margin: auto;
+    width: 1000px;
+    margin: 10px auto;
     display: flex;
     justify-content: space-around;
 }
 
 .artistCard {
-    width: 100%;
+    width: 500px;
     height: auto;
-    /*margin-right: 30px;*/
+    margin-left: 100px;
 }
 
 .artistArticle {
-    width: 750px;
     margin-top: 0;
     padding-top: 0;
     height: auto;
     padding-bottom: 5px;
     background: #FFF;
-    font-family: serif;
+    font-family: Hserif;
 }
 
 .artistPicture {
-    width: 750px;
-    height: 750px;
+    width: 500px;
+    height: 500px;
 	filter: grayscale(100%);
     transition: .3s ease-in-out;
 }

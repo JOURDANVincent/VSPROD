@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #242323;
+}
+
+<<<<<<< HEAD
+h2 {
+=======
+.contactUs h2 {
+>>>>>>> 625b5e5ddb0bf794fe07f29cd4b3a422253f0132
+    font-family: 'Roboto Slab', serif;
+    color: antiquewhite;
+    letter-spacing: 0.2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+<<<<<<< HEAD
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}    
+
+/* styles formulaire de contact */
+
+.contactUs {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;*/
+=======
+    padding-left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+}    
+
+/* styles formulaire de contact */
+
+.contactUs {
+    text-align: center;
+    height: auto;
+>>>>>>> 625b5e5ddb0bf794fe07f29cd4b3a422253f0132
+}
+
+
+.lastname, .firstname, .email, .phoneForm, .message  {
+    background: #E53411;
+    border: 1px solid  #FFF;
+    margin-bottom: 10px;
+    padding-right: 0;
+}
+
+.lastname:hover, .firstname:hover, .email:hover, .phoneForm:hover, .message:hover  {
+    border: 2px solid  #FFF;
+}
+
+.lastname::placeholder, .firstname::placeholder, .email::placeholder, .phoneForm::placeholder {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.lastname, .firstname, .email, .phoneForm {
+    height: 30px;
+    width: 300px;
+}
+
+.message{
+    height: 300px;
+<<<<<<< HEAD
+    width: 610px;
+=======
+    width: 608px;
+>>>>>>> 625b5e5ddb0bf794fe07f29cd4b3a422253f0132
+    color: #FFF;
+}
+
+.submitButton {
+    border: 0;
+    width: 150px;
+    height: 30px;
+    text-transform: uppercase;
+    color: #000;
+    background: antiquewhite;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.submitButton:hover {
+    border: 2px solid #E53411;
+}

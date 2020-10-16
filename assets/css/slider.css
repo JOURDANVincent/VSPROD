@@ -1,0 +1,60 @@
+body {
+    background-color: #404040;
+}
+
+@keyframes AutoSlide {
+	0% {
+		left: 0px; /*1ère image*/
+	}
+	10% {
+		left: 0px; /*idem pour attente*/
+	}
+	20% {
+		left: -604px; /*2ème image*/
+	}
+	30% {
+		left: -604px; /*idem pour attente*/
+	}
+	40% {
+		left: -1208px; /*3ème image*/
+	}
+	50% {
+		left: -1208px; /*idem pour attente*/
+    
+	}
+	100% {
+		left: 0px; /*1ère image*/
+	}
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+#slideshow {
+	position: relative;
+	width: 600px;
+	height: 600px;
+	margin:  30px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px black;
+}
+#sContent li {
+	display: inline;
+}
+
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2400px;
+	margin: 0;            
+	padding: 0;
+	
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}

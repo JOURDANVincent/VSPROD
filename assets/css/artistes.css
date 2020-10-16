@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #242323;
+}
+
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.artistContent {
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+
+.artistCard {
+    width: 50%;
+    height: auto;
+}
+.artistPicture {
+    width: 100%;
+    height: auto;
+}
+.artistArticle {
+    width: 100%;
+    height: auto;
+    background-color: rgba(16,16,16,0.8);
+}
+
+

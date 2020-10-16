@@ -88,6 +88,10 @@ body, html {
 .map {
     display: flex;
     align-content: center;
+    width: 100%;
+    height: auto;
+    background-color:  rgba(16,16,16, 0.9);
+     box-shadow: 2px 2px 2px 2px black;
 }
 
 .googleMap {

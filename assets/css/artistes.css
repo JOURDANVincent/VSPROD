@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #242323;
+}
+
+
+.artistCard h2 {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.2em;
+    font-weight: 900;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.artistCard p {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-right: auto;
+}
+
+.artistContent {
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.artistCard {
+    width: 350px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.artistArticle {
+    margin-top: 0;
+    padding-top: 0;
+    height: 200px;
+    background: #FFF;
+    font-family: Hserif;
+}
+
+.artistPicture {
+    width: 350px;
+    height: 350px;
+	filter: grayscale(100%);
+    transition: .3s ease-in-out;
+}
+
+.artistPicture:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+}

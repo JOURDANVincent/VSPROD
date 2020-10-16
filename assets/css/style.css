@@ -5,7 +5,6 @@ html, body {
   color: white
 }
 
-
 img {
   width: 100%;
   height: auto;
@@ -19,7 +18,7 @@ video {
   height: 84%;
   width: 84%;
 }
-
+/* Box Text par dessus la video */
 .textLabelBox {
   display: flex;
   flex-direction: column;

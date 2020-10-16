@@ -7,25 +7,24 @@ body {
     background-color: #242323;
 }
 
-h2 {
+.contactUs h2 {
     font-family: 'Roboto Slab', serif;
     color: antiquewhite;
     letter-spacing: 0.2em;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
+    padding-left: 0;
     margin-bottom: 30px;
-    display: flex;
+    text-align: center;
     align-items: center;
 }    
 
 /* styles formulaire de contact */
 
 .contactUs {
-    /*display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;*/
+    text-align: center;
+    height: auto;
 }
 
 
@@ -33,6 +32,7 @@ h2 {
     background: #E53411;
     border: 1px solid  #FFF;
     margin-bottom: 10px;
+    padding-right: 0;
 }
 
 .lastname:hover, .firstname:hover, .email:hover, .phoneForm:hover, .message:hover  {
@@ -51,7 +51,7 @@ h2 {
 
 .message{
     height: 300px;
-    width: 610px;
+    width: 608px;
     color: #FFF;
 }
 

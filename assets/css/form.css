@@ -1,24 +1,3 @@
-/*body, html {
-    margin: 0;
-    padding: 0;
-}
-
-.contact h2 {
-    font-family: Helvetica, sans-serif;
-    font-size: 24px;
-}
-
-.contact p {
-    font-family: Helvetica, sans-serif;
-}
-
-
-
-.lastname, .firstname, .email, .phoneForm, .message  {
-    border: 2px solid;
-    margin-bottom: 10px;
-}
-*/
 body, html {
     margin: 0;
     padding: 0;
@@ -28,24 +7,65 @@ body {
     background-color: #242323;
 }
 
-.contactUs h2 {
+h2 {
     font-family: 'Roboto Slab', serif;
+    color: antiquewhite;
     letter-spacing: 0.2em;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
-}
-
-.contactContainer {
-    width: 1000px;
-    margin: auto;
-}
-
-.contact {
+    margin-bottom: 30px;
     display: flex;
+    align-items: center;
+}    
+
+/* styles formulaire de contact */
+
+.contactUs {
+    /*display: flex;
+    align-items: center;
     justify-content: center;
+    height: auto;*/
 }
+
 
 .lastname, .firstname, .email, .phoneForm, .message  {
-    border: 2px solid;
+    background: #E53411;
+    border: 1px solid  #FFF;
+    margin-bottom: 10px;
+}
+
+.lastname:hover, .firstname:hover, .email:hover, .phoneForm:hover, .message:hover  {
+    border: 2px solid  #FFF;
+}
+
+.lastname::placeholder, .firstname::placeholder, .email::placeholder, .phoneForm::placeholder {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.lastname, .firstname, .email, .phoneForm {
+    height: 30px;
+    width: 300px;
+}
+
+.message{
+    height: 300px;
+    width: 610px;
+    color: #FFF;
+}
+
+.submitButton {
+    border: 0;
+    width: 150px;
+    height: 30px;
+    text-transform: uppercase;
+    color: #000;
+    background: antiquewhite;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.submitButton:hover {
+    border: 2px solid #E53411;
 }

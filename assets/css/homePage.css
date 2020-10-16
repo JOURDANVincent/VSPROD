@@ -12,7 +12,10 @@ video {
   height: 84%;
   width: 84%;
 }
-
+ img {
+   height: 100%;
+   width: 100%;
+ }
 
 .titleBG {
   transform: rotate(4deg);

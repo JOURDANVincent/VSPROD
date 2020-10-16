@@ -11,13 +11,31 @@ body, html {
     height: 100%;
 }
 
+<<<<<<< HEAD
+h2 {
+=======
 .contactUs h2 {
+>>>>>>> 625b5e5ddb0bf794fe07f29cd4b3a422253f0132
     font-family: 'Roboto Slab', serif;
     color: antiquewhite;
     letter-spacing: 0.2em;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
+<<<<<<< HEAD
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}    
+
+/* styles formulaire de contact */
+
+.contactUs {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;*/
+=======
     padding-left: 0;
     margin-bottom: 30px;
     text-align: center;
@@ -30,6 +48,7 @@ body, html {
     padding-top: 20px;
     text-align: center;
     height: auto;
+>>>>>>> 625b5e5ddb0bf794fe07f29cd4b3a422253f0132
 }
 
 
@@ -58,7 +77,15 @@ body, html {
 
 .message{
     height: 300px;
+<<<<<<< HEAD
     width: 604px;
+=======
+<<<<<<< HEAD
+    width: 610px;
+=======
+    width: 608px;
+>>>>>>> 625b5e5ddb0bf794fe07f29cd4b3a422253f0132
+>>>>>>> 6924db8bebf5abec025ba544d6cfb8b10056d657
     color: #FFF;
     resize: none;
     box-sizing: border-box;

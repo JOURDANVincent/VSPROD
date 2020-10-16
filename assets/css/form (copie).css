@@ -3,35 +3,21 @@ body, html {
     padding: 0;
 }
 
-body {
-    background-color: #242323;
+/* Bloc 4 - Formulaire */
+
+#bloc4 {
+    background-color: #E7BC87;
+    width: 100%;
+    height: 100%;
 }
 
-<<<<<<< HEAD
-h2 {
-=======
 .contactUs h2 {
->>>>>>> 625b5e5ddb0bf794fe07f29cd4b3a422253f0132
     font-family: 'Roboto Slab', serif;
     color: antiquewhite;
     letter-spacing: 0.2em;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
-<<<<<<< HEAD
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-}    
-
-/* styles formulaire de contact */
-
-.contactUs {
-    /*display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;*/
-=======
     padding-left: 0;
     margin-bottom: 30px;
     text-align: center;
@@ -41,14 +27,14 @@ h2 {
 /* styles formulaire de contact */
 
 .contactUs {
+    padding-top: 20px;
     text-align: center;
     height: auto;
->>>>>>> 625b5e5ddb0bf794fe07f29cd4b3a422253f0132
 }
 
 
 .lastname, .firstname, .email, .phoneForm, .message  {
-    background: #E53411;
+    background:#242323;
     border: 1px solid  #FFF;
     margin-bottom: 10px;
     padding-right: 0;
@@ -56,6 +42,7 @@ h2 {
 
 .lastname:hover, .firstname:hover, .email:hover, .phoneForm:hover, .message:hover  {
     border: 2px solid  #FFF;
+    box-sizing: border-box;
 }
 
 .lastname::placeholder, .firstname::placeholder, .email::placeholder, .phoneForm::placeholder {
@@ -66,16 +53,15 @@ h2 {
 .lastname, .firstname, .email, .phoneForm {
     height: 30px;
     width: 300px;
+    box-sizing: border-box;
 }
 
 .message{
     height: 300px;
-<<<<<<< HEAD
-    width: 610px;
-=======
-    width: 608px;
->>>>>>> 625b5e5ddb0bf794fe07f29cd4b3a422253f0132
+    width: 604px;
     color: #FFF;
+    resize: none;
+    box-sizing: border-box;
 }
 
 .submitButton {
@@ -87,8 +73,55 @@ h2 {
     background: antiquewhite;
     font-family: Helvetica, sans-serif;
     font-weight: 700;
+    margin-bottom: 50px;
 }
 
 .submitButton:hover {
     border: 2px solid #E53411;
+}
+
+
+/* Styles carte et adresse */
+
+.map {
+    display: flex;
+    align-content: center;
+}
+
+.googleMap {
+    margin-left: 210px;
+    padding-bottom: 50px;
+}
+
+.socials img {
+    width: 50px;
+    height: 50px;
+}
+
+.socials {
+    margin: 33px auto 33px 40px; 
+    /* margin-top: 33px; */
+    width: 50px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+    
+.soundcloud {
+     grid-area: 1 / 1 / 2 / 2;
+}
+
+.facebook {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.instagram {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.twitter {
+    grid-area: 2 / 2 / 3 / 3;
 }

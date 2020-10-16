@@ -35,7 +35,7 @@ body, html {
 
 .lastname, .firstname, .email, .phoneForm, .message  {
     background:#242323;
-    border: 1px solid  #FFF;
+    border: 0px solid  #FFF;
     margin-bottom: 10px;
     padding-right: 0;
 }
@@ -69,27 +69,28 @@ body, html {
     width: 150px;
     height: 30px;
     text-transform: uppercase;
-    color: #000;
-    background: antiquewhite;
+    color: #FFF;
+    background: #242323;
     font-family: Helvetica, sans-serif;
     font-weight: 700;
     margin-bottom: 50px;
 }
 
 .submitButton:hover {
-    border: 2px solid #E53411;
+    border: 2px solid #FFF;
 }
 
 
 /* Styles carte et adresse */
 
 .map {
+    width: 600px;
+    margin: 0 auto;
     display: flex;
-    align-content: center;
 }
 
 .googleMap {
-    /* margin-left: auto; */
+    margin-left: auto;
     padding-bottom: 50px;
 }
 
@@ -99,10 +100,12 @@ body, html {
 }
 
 .socials {
-    margin: 33px auto 33px 40px; 
-    /* margin-top: 33px; */
-    width: 50px;
-    height: 50px;
+    padding-top: 33px;
+    padding-left: 60px;
+    margin: 0 auto;
+    display: flex;
+    width: 120px;
+    height: 120px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);

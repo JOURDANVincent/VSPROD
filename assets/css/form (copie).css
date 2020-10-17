@@ -1,7 +1,9 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
 }
+
 
 /* Bloc 4 - Formulaire */
 
@@ -16,15 +18,14 @@ body, html {
 .contactUs h2 {
     /* font-family: 'Roboto Slab', serif; */
     color: black;
-    letter-spacing: 0.2em;
-    font-weight: 900;
     text-transform: uppercase;
     text-align: center;
     padding-left: 0;
     margin-bottom: 30px;
     text-align: center;
     align-items: center;
-}    
+}
+
 
 /* styles formulaire de contact */
 
@@ -34,33 +35,46 @@ body, html {
     height: auto;
 }
 
-
-.lastname, .firstname, .email, .phoneForm, .message  {
-    background:#242323;
-    border: 1px solid  #FFF;
+.lastname,
+.firstname,
+.email,
+.phoneForm,
+.message {
+    background: #242323;
+    border: 1px solid #FFF;
     border-radius: 5px;
     margin-bottom: 10px;
     padding-right: 0;
 }
 
-.lastname:hover, .firstname:hover, .email:hover, .phoneForm:hover, .message:hover  {
-    border: 2px solid  #FFF;
+.lastname:hover,
+.firstname:hover,
+.email:hover,
+.phoneForm:hover,
+.message:hover {
+    border: 2px solid #FFF;
     box-sizing: border-box;
 }
 
-.lastname::placeholder, .firstname::placeholder, .email::placeholder, .phoneForm::placeholder {
-    color:#90909050;
+.lastname::placeholder,
+.firstname::placeholder,
+.email::placeholder,
+.phoneForm::placeholder {
+    color: #90909050;
     /* font-weight: bold; */
-    padding-left: 10px;    
+    padding-left: 10px;
 }
 
-.lastname, .firstname, .email, .phoneForm {
+.lastname,
+.firstname,
+.email,
+.phoneForm {
     height: 30px;
     width: 300px;
     box-sizing: border-box;
 }
 
-.message{
+.message {
     height: 300px;
     width: 604px;
     color: #FFF;
@@ -95,7 +109,7 @@ body, html {
     align-content: center;
     width: 100%;
     height: auto;
-    background-color:  rgba(16,16,16, 0.9);
+    background-color: rgba(16, 16, 16, 0.9);
     box-shadow: 2px 2px 2px 2px black;
 }
 
@@ -110,7 +124,7 @@ body, html {
 }
 
 .socials {
-    margin: 33px auto 33px 40px; 
+    margin: 33px auto 33px 40px;
     /* margin-top: 33px; */
     width: 50px;
     height: 50px;
@@ -120,9 +134,9 @@ body, html {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
 }
-    
+
 .soundcloud {
-     grid-area: 1 / 1 / 2 / 2;
+    grid-area: 1 / 1 / 2 / 2;
 }
 
 .facebook {

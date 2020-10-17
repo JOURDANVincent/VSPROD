@@ -1,14 +1,10 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
-
-body {
-    background-color: #242323;
-}
-
 
 img {
     height: 100%;
@@ -17,9 +13,10 @@ img {
 
 .artistContent {
     display: flex;
+    background-color: #242323;
     /* flex-wrap: wrap; */
     width: 100%;
-    height: auto;
+    height: 100%;
     justify-content: space-around;
 }
 
@@ -27,14 +24,14 @@ img {
     width: 50%;
     height: auto;
 }
+
 .artistPicture {
     width: 100%;
     height: auto;
 }
+
 .artistArticle {
     width: 100%;
     height: auto;
-    background-color: rgba(16,16,16,0.8);
+    background-color: rgba(16, 16, 16, 0.8);
 }
-
-

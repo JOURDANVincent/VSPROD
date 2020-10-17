@@ -34,7 +34,12 @@ html {
     text-align: center;
     height: auto;
 }
+.contactUs h2 {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
 
+<<<<<<< HEAD
 .lastname,
 .firstname,
 .email,
@@ -42,6 +47,12 @@ html {
 .message {
     background: #242323;
     border: 1px solid #FFF;
+=======
+
+.lastname, .firstname, .email, .phoneForm, .message  {
+    background:#242323aa;
+    border: 1px solid  #FFF;
+>>>>>>> 05edeaef610e8be4d893d9061b8104f672330e9b
     border-radius: 5px;
     margin-bottom: 10px;
     padding-right: 0;
@@ -56,11 +67,16 @@ html {
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .lastname::placeholder,
 .firstname::placeholder,
 .email::placeholder,
 .phoneForm::placeholder {
     color: #90909050;
+=======
+.lastname::placeholder, .firstname::placeholder, .email::placeholder, .phoneForm::placeholder {
+    color:#909090;
+>>>>>>> 05edeaef610e8be4d893d9061b8104f672330e9b
     /* font-weight: bold; */
     padding-left: 10px;
 }
@@ -83,9 +99,10 @@ html {
 }
 
 .submitButton {
-    border: 0;
+    border: none;
+    border-radius: 5px;
     width: 150px;
-    height: 30px;
+    height: 35px;
     text-transform: uppercase;
     color: #000;
     background: #ac7241;

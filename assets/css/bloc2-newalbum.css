@@ -79,6 +79,10 @@ h2 {
     height: auto;
     margin-top: 20px;
     margin-bottom: 25px;
+<<<<<<< HEAD
+=======
+    border-radius: 5px;
+>>>>>>> 05edeaef610e8be4d893d9061b8104f672330e9b
     box-shadow: 2px 2px 2px 2px black;
 }
 

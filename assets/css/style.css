@@ -28,12 +28,14 @@ video {
   height: auto;
   width: 100%;
   left: 0;
-  top: 50%;
+  top: 45%;
   background-color:  rgba(16,16,16, 0.3);
   box-shadow: 2px 2px 2px 2px black;
   color: rgba(255, 255, 255, 0.5);
+  
 }
 .textLabelBox h2, .textLabelBox h3, .textLabelBox p {
+  
   margin: 0;
   padding: 0;
 }
@@ -44,10 +46,12 @@ video {
   float: left;
   font-size: 100px;
   padding-left: 150px;
+  opacity: 0.6;
 }
 .titleColor {
   color: #ac7241;
   font-weight: bold;
+  font-family: 'Anton', sans-serif;
 }
 #subTitleBG {
   float: right;
@@ -60,10 +64,11 @@ video {
   position: absolute;
   width: 64%;
   left: 18%;
-  bottom: 50px;
+  bottom: 45px;
   text-align: center;
   font-size: 20px;
   color: #808080;
+  font-family: Helvetica, sans-serif;
 }
 
 
@@ -84,6 +89,8 @@ video {
 }
 .navBar li {
   float: right;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
 }
 .navBar a {
   display: block;
@@ -105,4 +112,25 @@ video {
 .navBar a:active {
   background-color:#252525;
   opacity: 0.8;
+}
+
+
+/* Section footer */
+footer ul {
+  z-index: 5;
+  text-align: center;
+  height: 100px; 
+  list-style-type: none;
+  background-color:  black;
+  box-shadow: 2px 2px 2px 2px black;
+  margin: 0;
+  padding: 0%;
+}
+footer a {
+  font-size: 50px;
+  
+}
+.footerLink {
+  height: 30px;
+  width: auto;
 }

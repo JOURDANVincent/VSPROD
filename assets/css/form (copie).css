@@ -14,8 +14,8 @@ body, html {
 }
 
 .contactUs h2 {
-    font-family: 'Roboto Slab', serif;
-    color: antiquewhite;
+    /* font-family: 'Roboto Slab', serif; */
+    color: black;
     letter-spacing: 0.2em;
     font-weight: 900;
     text-transform: uppercase;
@@ -38,6 +38,7 @@ body, html {
 .lastname, .firstname, .email, .phoneForm, .message  {
     background:#242323;
     border: 1px solid  #FFF;
+    border-radius: 5px;
     margin-bottom: 10px;
     padding-right: 0;
 }
@@ -48,8 +49,9 @@ body, html {
 }
 
 .lastname::placeholder, .firstname::placeholder, .email::placeholder, .phoneForm::placeholder {
-    color: #FFF;
-    font-weight: bold;
+    color:#90909050;
+    /* font-weight: bold; */
+    padding-left: 10px;    
 }
 
 .lastname, .firstname, .email, .phoneForm {
@@ -72,7 +74,9 @@ body, html {
     height: 30px;
     text-transform: uppercase;
     color: #000;
-    background: antiquewhite;
+    background: #ac7241;
+    /* border-radius: 5px; */
+    box-shadow: 2px 2px 2px 2px black;
     font-family: Helvetica, sans-serif;
     font-weight: 700;
     margin-bottom: 50px;
@@ -80,6 +84,7 @@ body, html {
 
 .submitButton:hover {
     border: 2px solid #E53411;
+    font-family: 'Anton', sans-serif;
 }
 
 
@@ -91,7 +96,7 @@ body, html {
     width: 100%;
     height: auto;
     background-color:  rgba(16,16,16, 0.9);
-     box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 2px 2px 2px 2px black;
 }
 
 .googleMap {

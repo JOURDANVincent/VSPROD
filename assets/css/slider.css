@@ -16,22 +16,11 @@ body {
 		left: -300px; /*idem pour attente*/
 	}
 	40% {
-		left: -1200px; /*3ème image*/
+		left: -1208px; /*3ème image*/
 	}
 	50% {
-		left: -1200px; /*idem pour attente*/
-    }
-    60% {
-		left: -1800px; /*3ème image*/
-	}
-	70% {
-		left: -1800px; /*idem pour attente*/
-    }
-    80% {
-		left: -2400px; /*3ème image*/
-	}
-	90% {
-		left: -2400px; /*idem pour attente*/
+		left: -1208px; /*idem pour attente*/
+    
 	}
 	100% {
 		left: 0px; /*1ère image*/
@@ -39,8 +28,8 @@ body {
 }
 
 img{
-    width: 600px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
 }
 #slideshow {
 	position: relative;
@@ -59,7 +48,7 @@ img{
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 3000px;
+	width: 2400px;
 	margin: 0;            
 	padding: 0;
 	

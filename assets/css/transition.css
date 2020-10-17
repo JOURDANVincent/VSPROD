@@ -1,0 +1,58 @@
+.hpBlink  {
+    animation-duration: 1s;
+    animation-name: clignoter;
+    animation-iteration-count: 5;
+    transition: none;
+ }
+ @keyframes clignoter {
+   0%   { opacity:1; }
+   40%   {opacity:0; }
+   100% { opacity:1; }
+ }
+
+.titleBlink  {
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+ }
+ @keyframes clignoter {
+   0%   { opacity:1; }
+   40%   {opacity:0; }
+   100% { opacity:1; }
+ }
+
+ .imgBlink  {
+    animation-duration: 1s;
+    animation-name: clignoter;
+    animation-iteration-count: 5;
+    transition: none;
+ }
+ @keyframes clignoter {
+   0%   { opacity:1; }
+   40%   {opacity:0; }
+   100% { opacity:1; }
+ }
+
+ .showen  {
+    animation-duration: 30s;
+    animation-name: show;
+    animation-iteration-count: 1;
+    transition: none;
+ }
+ @keyframes show {
+   0%   { opacity:0; }
+   100% { opacity:1; }
+ }
+
+ .hidden  {
+    animation-duration: 20s;
+    animation-name: hide;
+    animation-iteration-count: 1;
+    transition: none;
+ }
+ @keyframes hide {
+   0%   { opacity:1; }
+   80%   { opacity:1; }
+   100% { opacity:0; }
+ }

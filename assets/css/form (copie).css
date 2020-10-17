@@ -33,10 +33,14 @@ body, html {
     text-align: center;
     height: auto;
 }
+.contactUs h2 {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
 
 
 .lastname, .firstname, .email, .phoneForm, .message  {
-    background:#242323;
+    background:#242323aa;
     border: 1px solid  #FFF;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -49,7 +53,7 @@ body, html {
 }
 
 .lastname::placeholder, .firstname::placeholder, .email::placeholder, .phoneForm::placeholder {
-    color:#90909050;
+    color:#909090;
     /* font-weight: bold; */
     padding-left: 10px;    
 }
@@ -69,9 +73,10 @@ body, html {
 }
 
 .submitButton {
-    border: 0;
+    border: none;
+    border-radius: 5px;
     width: 150px;
-    height: 30px;
+    height: 35px;
     text-transform: uppercase;
     color: #000;
     background: #ac7241;

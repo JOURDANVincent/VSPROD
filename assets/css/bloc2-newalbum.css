@@ -4,18 +4,11 @@ body {
     padding: 0;
 }
 
-
-/* A METTRE DANS LE HEAD*/
-
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;900&family=Roboto:wght@100;500&display=swap"
-/*  */
-
 h2 {
-    font-family: 'Roboto Slab', serif;
+    font-family: Roboto;
     letter-spacing: 0.2em;
     font-weight: 900;
 }
-
 
 /*BLOC 2 - NEW ALBUM */
 
@@ -23,7 +16,7 @@ h2 {
     display: flex;
     width: 100%;
     height: 100%;
-    margin-top: 4%;
+    padding-bottom: 4%;
     background-color: #E7BC87;
 }
 
@@ -34,13 +27,12 @@ h2 {
 }
 
 #imgCoyoteDetourage {
-    width: 60%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 15%;
     height: auto;
     opacity: 0.8;
     padding-top: 0;
 }
-
 #title-newalbum {
     z-index: 5;
     position: absolute;
@@ -56,7 +48,7 @@ h2 {
 #newalbum-left p {
     width: 90%;
     height: 30%;
-    padding-left: 12%;
+    padding-left: 10%;
     margin-top: 50px;
     font-size: 18px;
     word-spacing: 0.4em;
@@ -72,21 +64,20 @@ h2 {
     height: 100%;
     display: inline;
     text-align: center;
+    
 }
 
 #vignettealbum img {
-    width: 60%;
+    width: 70%;
     height: auto;
     margin-top: 20px;
-    margin-bottom: 25px;
-<<<<<<< HEAD
-=======
+    margin-bottom: 30px;
     border-radius: 5px;
->>>>>>> 05edeaef610e8be4d893d9061b8104f672330e9b
     box-shadow: 2px 2px 2px 2px black;
 }
 
 #lecteur {
-    display: inline;
-    width: 60%;
+    display: inline-block;  
+    width: auto;
+    height: auto;
 }

@@ -1,0 +1,23 @@
+.artistBox {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+}
+
+.coyoteArtist {
+    height: auto;
+    width: 50%;
+    background-color: red;
+}
+
+.tiezoArtist { 
+    height: auto;
+    width: 50%;
+    background-color: blue;
+}
+
+.artistSliderBox {
+    height: auto;
+    width: 50%;
+}

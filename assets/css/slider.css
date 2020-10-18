@@ -10,10 +10,10 @@ body {
 		left: 0px; /*idem pour attente*/
 	}
 	20% {
-		left: -604px; /*2ème image*/
+		left: -300px; /*2ème image*/
 	}
 	30% {
-		left: -604px; /*idem pour attente*/
+		left: -300px; /*idem pour attente*/
 	}
 	40% {
 		left: -1208px; /*3ème image*/

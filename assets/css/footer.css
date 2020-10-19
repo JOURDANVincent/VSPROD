@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-body,
-html {
-    margin: 0;
-    padding: 0;
-    background: black;
-    color: white;
-    font-family: 'Anton', sans-serif;
-}
-
-=======
->>>>>>> master
-=======
->>>>>>> master
 /* Section footer */
 
 .footer-distributed {
@@ -21,21 +6,10 @@ html {
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    font: bold 16px sans-serif;
-    padding: 55px 50px;
-=======
-=======
->>>>>>> master
     /* font: bold 16px sans-serif; */
     padding: 55px 50px;
     color: white;
     font-family: 'Anton', sans-serif;
-<<<<<<< HEAD
->>>>>>> master
-=======
->>>>>>> master
 }
 
 .footer-distributed .footer-left,
@@ -44,19 +18,9 @@ html {
     display: inline-block;
     vertical-align: top;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
  .footerLogo {
     width: 20%;
  }
->>>>>>> master
-=======
- .footerLogo {
-    width: 20%;
- }
->>>>>>> master
 /* Footer left */
 
 .footer-distributed .footer-left {
@@ -78,14 +42,7 @@ html {
     display: inline-block;
     line-height: 1.8;
     font-weight: 400;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     font-size: 15px;
->>>>>>> master
-=======
-    font-size: 15px;
->>>>>>> master
     text-decoration: none;
     color: inherit;
 }

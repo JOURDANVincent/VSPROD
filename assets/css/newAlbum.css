@@ -11,7 +11,6 @@ h2 {
 }
 
 /*BLOC 2 - NEW ALBUM */
-
 #newAlbum {
     display: flex;
     width: 100%;
@@ -71,8 +70,8 @@ h2 {
     width: auto;
     height: auto;
 }
-#enFumetteVideo {
-    
+iframe {
+    border: transparent;
 }
 #newAlbum-left-bottom p {
     width: 35%;
@@ -92,7 +91,6 @@ h2 {
     height: 100%;
     display: inline;
     text-align: center;
-    
 }
 
 #vignetteAlbum img {

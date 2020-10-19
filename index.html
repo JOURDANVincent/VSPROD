@@ -1,32 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/transition.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/bloc2-newalbum.css">
-    <link rel="stylesheet" href="assets/css/form (copie).css">
-    <link rel="stylesheet" href="assets/css/artistesdemo.css">
+    <link rel="stylesheet" href="assets/css/mainStyle.css">
+    <link rel="stylesheet" href="assets/css/newAlbum.css">
+    <link rel="stylesheet" href="assets/css/artistSlider.css">
+    <link rel="stylesheet" href="assets/css/formContact.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <title>VS PROD - Label de production de Street Artiste / AMIENS</title>
 </head>
 
 <body>
 
     <!--Video bg page de garde -->
-    <div id="homePage">
+    <div id="homePage" class="flashen">
         <video autoplay loop muted id="videobg" poster=none>
-            <source src="assets/video/coyote-elblanco-rmk-comptearebours-car2 (online-video-cutter.com).mp4"
+            <source src="assets/video/coyoteElblanco.mp4"
                 type="video/mp4">
         </video>
 
+        <div>
+            <img class=logo src="assets/img/logo1.png" alt="">
+        </div>
+
         <div class="textLabelBox">
-            <div>
-                <h2 class="titleColor" id=titleBG>VS PROD </h2>
-            </div>
-            <div>
+                        <div>
                 <h3 class=imgBlink id="subTitleBG">Label des indépendants</h3>
             </div>
         </div>
@@ -42,23 +44,21 @@
         </div>
     </div>
 
-    </div>
 
     <!-- Bar de Navigation avec option sticky-->
     <ul class=navBar id=navBar>
-        <li class=navItem style="float: left;"><a class=active href="#homePage">VSPROD</a></li>
-        <li class=navItem><a href="#accessPage">PLAN D'ACCES</a></li>
-        <li class=navItem><a href="#bloc4">CONTACT</a></li>
-        <li class=navItem><a href="#artistContent">NOS ARTISTES</a></li>
-        <li class=navItem><a href="#newalbum">PROMO ALBUM</a></li>
-        <li class=navItem><a href="#aboutPage">ABOUT US</a></li>
+        <li class=navItem style="float: left;"><a class=active href="#homePage">HOME</a></li>
+        <li class=navItem><a class=flahsPage href="#footerPage">ABOUT</a></li>
+        <li class=navItem><a class=flahsPage href="#formContactPage">CONTACT</a></li>
+        <li class=navItem><a class=flahsPage href="#artistBox">NOS ARTISTES</a></li>
+        <li class=navItem><a class=flahsPage href="#newAlbum">TOP ALBUM</a></li>
     </ul>
 
 
     <!--BLOC 2 NEW ALBUM -->
-    <div id="newalbum">
-        <div id="newalbum-left">
-            <div class="titleBlink" id="title-newalbum">
+    <div id="newAlbum">
+        <div id="newAlbum-left">
+            <div class="titleBlink" id="title-newAlbum">
                 <h2>NEW ALBUM</h2>
             </div>
             <div id="imgCoyoteDetourage">
@@ -74,108 +74,102 @@
                 rappelle que son EP "Solo mais Serein" est toujours disponible sur les plateformes de streaming !
             </p>
         </div>
-        <div id="newalbum-right">
-            <!-- <div class="image-clignote" id="title-newalbum">
-            <h2>NEW ALBUM</h2>
-        </div> -->
-            <div id="vignettealbum">
+
+        <div id="newAlbum-right">
+            <div id="vignetteAlbum">
                 <img class="imgBlink" src="assets/img/coyote-img-newalbum.jpg" alt="Pochette Album">
-
-
             </div>
-            <div id="lecteur">
-            </div>
-            <iframe width="448" height="252" src="https://www.youtube.com/embed/tOz1v3KYWaY" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div id="lecteur"></div>
+            <iframe src="https://open.spotify.com/embed/album/0Gd4iLMvWBOoYfWsG2BeZr" width="350" height="380" allow="encrypted-media">
+            </iframe>
         </div>
+
+        
+    </div>
+
+    <div id="newAlbum-left-bottom">
+        <iframe id="enFumetteVideo" width="448" height="252" src="https://www.youtube.com/embed/tOz1v3KYWaY"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <p>
+            Coyote El Blanco, vît un succès d'autant plus grandissant lorsque son titre "Enfumette" dépassa le
+            million de vues sur Youtube. Ce succès lui apporta une plus grande visibilité et une nouvelle
+            possibilité de featuring avec d'autres rappeur et collab'.
+        </p>
     </div>
 
 
     <!-- Section présentation des artistes -->
+    <div id="artistBox" class=artistBox>
 
-    <section class="artistContent">
-
-        <!-- Carte 1er artiste -->
-
-        <div class="artistCard1">
-            <div class="slider artistPicture">
-                <div class="slides">
-                    <div class="slide"><img src="../VSPROD/DL/Coyote/600x600 (1).jpg" alt="" width="514" height="514">
-                    </div>
-                    <div class="slide"><img src="../VSPROD/DL/Coyote/71378774_2305896576186486_2047503415008821248_n.jpg" alt="" width="514" height="514">
-                    </div>
-                    <div class="slide"><img src="../VSPROD/DL/Coyote/80645509_2464895350286607_7557354879866372096_n.jpg" alt="" width="514" height="514">
-                    </div>
-                </div>
+        <div class=coyoteArtist>
+            <div id=coyoteSliderBox>
+                <ul id="sCoyoteContent">
+                    <li><img class=coyoteImg src="assets/img/coyote/coyote1.jpg" alt="c1"> </li>
+                    <li><img class=coyoteImg src="assets/img/coyote/coyote2.jpg" alt="c2"></li>
+                    <li><img class=coyoteImg src="assets/img/coyote/coyote3.jpg" alt="c3"></li>
+                    <li><img class=coyoteImg src="assets/img/coyote/coyote4.jpg" alt="c4"></li>
+                    <li><img class=coyoteImg src="assets/img/coyote/coyote5.jpg" alt="c5"></li>
+                    <li><img class=coyoteImg src="assets/img/coyote/coyote6.jpg" alt="c6"></li>
+                </ul>
+            </div>
             
-                <article class="artistArticle">
-                    <h2>Coyote El Blanco</h2>
-                    <p>Découvrez Coyote El Blanco avec "Solo Mais Serein", son tout nouveau projet. 
-                        Jeune rookie originaire du Nord-pas-de-Calais, Coyote El Blanco, de son vrai nom Aurélien, 
-                        est un nouvel élément en progression dans le rap game. 
-                        Alors à peine âgé de 9 ans, Coyote El Blanco découvre le rap en compagnie de collègues plus âgés 
-                        vivants dans le même quartier. Émerveillé, il s’essaye alors à la discipline et participe mêmes à 
-                        des petits concerts organisé par la ville. <br> <br>
+            <article class="coyoteArticle">
+                <h2 class=titleColor>Coyote El Blanco</h2>
+                <p>Découvrez Coyote El Blanco avec "Solo Mais Serein", son tout nouveau projet. 
+                    Jeune rookie originaire du Nord-pas-de-Calais, Coyote El Blanco, de son vrai nom Aurélien, 
+                    est un nouvel élément en progression dans le rap game. 
+                    Alors à peine âgé de 9 ans, Coyote El Blanco découvre le rap en compagnie de collègues plus âgés 
+                    vivants dans le même quartier. Émerveillé, il s’essaye alors à la discipline et participe mêmes à 
+                    des petits concerts organisé par la ville. <br> <br>
 
-                        En 2016, il est approché par un producteur qui partagera pour la première fois les freestyles du
-                        rappeur en herbe. Phrasé chargé, flow maîtrisé, le rappeur fait rapidement parler de lui. Il
-                        décide par la suite de monter un groupe avec son ami RMK avec qui il réalise En Fumette (1M de
-                        vues sur YouTube), C’est Comment (plus de 400 000 sur YouTube) et toute une liste de bangers
-                        partagés sur Daymolition, la célèbre chaîne YouTube dédié au rap. Deux ans plus tard, Coyote El
-                        Blanco se lance dans une carrière solo, déterminé à travailler pour obtenir ce qu’il mérite. En
-                        2019, il se présente au grand public avec un nouveau projet : "Solo Mais Serein". Pour présenter
-                        cette nouvelle réalisation, le jeune rappeur balance « BANG » un nouveau titre dans lequel il
-                        fait preuve d’une vivacité sans faille et d’un flow à vous couper le souffle.</p>
-                </article>
-            </div>
+                    En 2016, il est approché par un producteur qui partagera pour la première fois les freestyles du
+                    rappeur en herbe. Phrasé chargé, flow maîtrisé, le rappeur fait rapidement parler de lui. Il
+                    décide par la suite de monter un groupe avec son ami RMK avec qui il réalise En Fumette (1M de
+                    vues sur YouTube), C’est Comment (plus de 400 000 sur YouTube) et toute une liste de bangers
+                    partagés sur Daymolition, la célèbre chaîne YouTube dédié au rap. Deux ans plus tard, Coyote El
+                    Blanco se lance dans une carrière solo, déterminé à travailler pour obtenir ce qu’il mérite. En
+                    2019, il se présente au grand public avec un nouveau projet : "Solo Mais Serein". Pour présenter
+                    cette nouvelle réalisation, le jeune rappeur balance « BANG » un nouveau titre dans lequel il
+                    fait preuve d’une vivacité sans faille et d’un flow à vous couper le souffle.</p>
+            </article>
         </div>
-
-        <!-- Carte 2eme artiste-->
-        <div class="artistCard2">
-            <div class="slider artistPicture">
-                <div class="slides">
-                    <div class="slide"><img src="../VSPROD/DL/Tiezo/tiezoscène.jpg" alt="" width="514" height="514">
-                    </div>
-                    <div class="slide"><img src="../VSPROD/DL/Tiezo/Tiezoslide2.png" alt="" width="514" height="514">
-                    </div>
-                    <div class="slide"><img src="../VSPROD/DL/Tiezo/Tiezoslide3.png" alt="" width="514" height="514">
-                    </div>
-                </div>
-
-                <article class="artistArticle">
-                    <h2>Tiezo</h2>
-                    <p>Tiezo vient de sortir son nouveau single, "Le creux de ta main", un titre rap bien écrit,
-                        dans un
-                        style posé, au refrain chanté.
-                        On sent une envie de conter une histoire et de story-telling, qui vient en continitué du
-                        clip
-                        "Fernand n'attend" qui utilisait le même procédé
-                        essayant de sortir des codes des vidéos freestyles, se rapprochant des artistes pro, ce à
-                        quoi
-                        il
-                        tend à devenir.
+        
+        <div class=tiezoArtist>
+            <div id=tiezoSliderBox>
+                <ul id="sTiezoContent">
+                    <li><img class=tiezoImg src="assets/img/tiezo/tiezo1.jpg" alt="c1"></li>
+                    <li><img class=tiezoImg src="assets/img/tiezo/tiezo.jpg" alt="c2"></li>
+                    <li><img class=tiezoImg src="assets/img/tiezo/tiezo2.jpg" alt="c3"></li>
+                    <li><img class=tiezoImg src="assets/img/tiezo/tiezo.jpg" alt="c4"></li>
+                    <li><img class=tiezoImg src="assets/img/tiezo/tiezo3.jpg" alt="c5"></li>
+                    <li><img class=tiezoImg src="assets/img/tiezo/tiezo.jpg" alt="c6"></li>
+                </ul>
+            </div>
+        
+            <article class="tiezoArticle">
+                <h2 class=titleColor>Tiezo</h2>
+                <p>Tiezo vient de sortir son nouveau single, "Le creux de ta main", un titre rap bien écrit,dans un
+                    style posé, au refrain chanté. On sent une envie de conter une histoire et de story-telling, qui vient en continitué du clip
+                    "Fernand n'attend" qui utilisait le même procédé essayant de sortir des codes des vidéos freestyles, se rapprochant des artistes pro, ce à
+                    quoi il tend à devenir.
                     <br> <br>
-                
-                Approché par Kery James, Despo Rutti, Tiezo est en train de trouver sa voie, 
-                et qui sait ce qu'il nous prépare pour cette fin d'année et pour 2021, en attendant, 
-                nous vous laissons découvrir son talent...</p>
-                </article>
-            </div>
+                    Approché par Kery James, Despo Rutti, Tiezo est en train de trouver sa voie, 
+                    et qui sait ce qu'il nous prépare pour cette fin d'année et pour 2021, en attendant, 
+                    nous vous laissons découvrir son talent...
+                </p>
+            </article>
         </div>
+    </div>
 
 
-
-    </section>
-
-    <div id="bloc4">
-        <!-- Formulaire de contact -->
+    <!-- Formulaire de contact -->
+    <div id="formContactPage">
+        
         <section class="contactUs">
-            <div>
-                <h2>Nous contacter</h2>
-            </div>
-
-            <form class="contactForm" action="" method="get">
+            <div><h2>Nous contacter</h2></div>
+            <form class="contactForm">
                 <div>
                     <input class="lastname" type="text" name="lastname" id="lastname" required placeholder="Nom">
                     <input class="firstname" type="text" name="firstnam" id="firstname" required placeholder="Prénom">
@@ -189,45 +183,51 @@
                     <textarea class="message" name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
                 <div>
-                    <input class="submitButton" class=titleColor type="submit" value="Envoyer">
+                    <input class="submitButton titleColor" type="submit" value="Envoyer">
                 </div>
             </form>
         </section>
+    </div>
 
+    <!-- Footer -->
 
-        <!-- Carte & adresse -->
+    <footer id="footerPage" class="footer-distributed">
+        <div class="footer-left">
+            <img class="footerLogo" src="assets/img/logo1.png" alt="Logo VS Prod">
+            <p class="footer-links">
+                <a href="#homePage" class="link-1">Home</a>
+                <a href="#newAlbum">Top Album</a>
+                <a href="#artistBox">Nos Artistes</a>
+                <a href="#formContactPage">Contact</a>
+            </p>
+            <p class="footer-company-name">VS Prod. © 2020</p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <img class="fa fa-map-marker" src="assets/img/map-marker.svg" width="20" alt="Icone Marqueur de carte">
+                <p><span>70 rue des Jacobins</span> 80000 Amiens</p>
+            </div>
+            <div>
+                <img class="fa fa-phone" src="assets/img/phone-call.svg" width="20" alt="Icone Téléphone">
+                <p>+33 03 03 03 03 03</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>A Propos</span>
+                <p>
+                    VS PROD, plus qu’un label indépendant, c’est une façon de concevoir la musique tout en offrant un cadre et une voix à des artistes émergents
+                </p>
+            <div class="footer-icons">
+                <a href="#"><img class="fa fa-youtube" src="assets/img/youtube.svg" width="50" alt="Icone Youtube"></a>
+                <a href="#"><img class="fa fa-facebook" src="assets/img/facebook.svg" width="50" alt="Icone fa-facebook"></a>
+                <a href="#"><img class="fa fa-instagram" src="assets/img/instagram.png" width="50" alt="Icone Instagram"></a>
+                <a href="#"><img class="fa fa-twitter" src="assets/img/twitter.svg" width="50" alt="Icone Twitter"></a>
+            </div>
+        </div>
 
-        <!-- <section class="map">
-      <iframe class="googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.4685895315006!2d2.299287016060849!3d49.89000537940187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78446501e03cb%3A0xd90c13e3b01c0596!2s70%20Rue%20des%20Jacobins%2C%2080000%20Amiens!5e0!3m2!1sfr!2sfr!4v1602765093032!5m2!1sfr!2sfr" width="450" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      <div class="socials">
-          <div class="soundcloud">
-              <a href="#"><img src="assets/img/soundcloud.svg" alt="Icone Souncloud"></a>
-          </div>
-          <div class="facebook">
-              <a href="#"><img src="assets/img/facebook.svg" alt="Icone Souncloud"></a>
-          </div>
-          <div class="instagram">
-              <a href="#"><img src="assets/img/instagram.svg" alt="Icone Souncloud"></a>        
-          </div>
-          <div class="twitter">
-              <a href="#"><img src="assets/img/twitter.svg" alt="Icone Souncloud"></a>
-          </div>
-      </div>
-  </section>
-</div> -->
-
+    </footer>
 
 </body>
-
-<footer>
-    <ul class=footerLink>
-        <l><a href=""><img class="footerLink" src="assets/img/twitter.svg" alt=""></a></l>
-        <l><a href=""><img class="footerLink" src="assets/img/facebook.svg" alt=""></a></l>
-        <l><a href=""><img class="footerLink" src="assets/img/instagram.svg" alt=""></a></l>
-        <l><a href=""><img class="footerLink" src="assets/img/" alt=""></a></l>
-        <l><a href=""><img class="footerLink" src="assets/img/" alt=""></a></l>
-    </ul>
-</footer>
-
 
 </html>

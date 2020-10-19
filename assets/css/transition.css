@@ -56,3 +56,27 @@
    80%   { opacity:1; }
    100% { opacity:0; }
  }
+
+ .flashen  {
+  animation-duration: 0.2s;
+  animation-name: flash;
+  animation-iteration-count: 1;
+  transition: none;
+}
+@keyframes flash {
+ 0%   { opacity:1; background-color: black;}
+ 50%   { opacity:0.9; background-color: white; }
+ 100% { opacity:0; }
+}
+
+/* .flashPage   {
+  animation-duration: 0.3s;
+  animation-name: flashingPage;
+  animation-iteration-count: 1;
+  transition: none;
+}
+@keyframes flashingPage {
+ 0%   { opacity:1; background-color: black;}
+ 50%   { opacity:0.9; background-color: white; }
+ 100% { opacity:0; }
+} */

@@ -1,0 +1,263 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: 'Anton', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Vide en bg page de garde */
+video {
+  position: relative;
+  z-index: 2;
+  margin-left: 8%;
+  height: 84%;
+  width: 84%;
+}
+
+.logo {
+  z-index: 5;
+  position: absolute;
+  left: 5%;
+  bottom: 22%;
+  width: 20%;
+  opacity: 0.7;
+}
+/* Box Text par dessus la video */
+.textLabelBox {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: absolute;
+  z-index: 3;
+  height: 30%;
+  width: 100%;
+  left: 0;
+  top: 45%;
+  background-color:  rgba(16,16,16, 0.3);
+  box-shadow: 2px 2px 2px 2px black;
+  color: rgba(255, 255, 255, 0.5);
+  
+}
+.textLabelBox h2, .textLabelBox h3, .textLabelBox p {
+  margin: 0;
+  padding: 0;
+}
+
+/* titre superposé à  la video */
+#titleBG {
+  float: left;
+  font-size: 100px;
+  padding-left: 150px;
+  opacity: 0.6;
+}
+.titleColor {
+  color: #ac7241;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+}
+#subTitleBG {
+  float: right;
+  font-size: 60px;
+  padding-right: 150px;
+  margin-bottom: 10px;
+}
+#textBG {
+  z-index: 5;
+  position: absolute;
+  width: 64%;
+  left: 18%;
+  bottom: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: #808080;
+  font-family: Helvetica, sans-serif;
+}
+
+
+/* bar de navigation mode sticky*/
+.navBar {
+  z-index: 50;
+  list-style-type: none;
+  height: auto;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background-color: rgba(16,16,16,0.8);
+  position: -webkit-sticky; /* Safari */
+  box-shadow: 2px 2px 2px 2px black;
+  position: sticky;
+  top: 0;
+}
+.navBar li {
+  float: right;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+}
+.navBar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.navBar a:focus {
+  background-color:#151515;
+  opacity: 0.8;
+  color: #ac7241
+}
+.navBar a:hover {
+  background-color: #111;
+  opacity: 0.8;
+}
+.navBar a:active {
+  background-color:#252525;
+  opacity: 0.8;
+  color: #ac7241
+}
+
+
+.artistCard1 h2, .artistCard2 h2 {
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 0.2em;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: thistle;
+}
+
+.artistCard1 p, .artistCard2 p {
+
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 1px;
+  color: thistle;
+}
+
+.artistContent {
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.artistCard1 {
+  width: 514px;
+  height: 514px;
+  margin-left: 150px;
+  margin-right: 0px;
+  padding-top: 25px;
+  /* margin-right: 30px; */
+}
+
+.artistCard2 {
+  width: 514px;
+  height: 514px;
+  margin-left: 0px;
+  margin-right: 150px;
+  padding-top: 25px;
+  /* margin-right: 30px; */
+}
+
+
+
+
+.artistArticle {
+  position: sticky;
+  margin-top: 0;
+  padding-top: 0;
+  /* max-height: 250px; */
+  background: transparent;
+  font-family: Hserif;
+
+}
+
+.artistPicture {
+
+  width: 100%;
+  margin-left: 15px;
+  filter: grayscale(100%);
+  transition: .3s ease-in-out;
+}
+
+.artistPicture:hover {
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+
+.slider {
+margin-right: 15px;
+  width: 514px;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 0;
+
+}
+
+.slides {
+  width: calc(514px * 3);
+  animation: glisse 25s infinite;
+}
+
+.slide {
+
+  float: left;
+}
+
+@keyframes glisse {
+  0% {
+      transform: translateX(0);
+  }
+
+  10% {
+      transform: translateX(0);
+  }
+
+  33% {
+      transform: translate(-514px);
+  }
+
+  43% {
+      transform: translateX(-514px);
+  }
+
+  66% {
+      transform: translateX(-1028px);
+  }
+
+  76% {
+      transform: translateX(-1028px);
+  }
+
+  100% {
+      transform: translateX(0);
+  }
+}
+
+/* Section footer */
+footer ul {
+  z-index: 5;
+  text-align: center;
+  height: 100px; 
+  list-style-type: none;
+  background-color:  black;
+  box-shadow: 2px 2px 2px 2px black;
+  margin: 0;
+  padding: 0%;
+}
+footer a {
+  font-size: 50px;
+}
+.footerLink {
+  height: 30px;
+  width: auto;
+}

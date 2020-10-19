@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Bloc 4 - Formulaire */
+#formContactPage {
+    background-color: #E7BC87;
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.contactUs h2 {
+    color: black;
+    letter-spacing: 0.2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+}    
+
+/* styles formulaire de contact */
+.contactUs {
+    padding-top: 20px;
+    text-align: center;
+    height: auto;
+}
+.contactUs h2 {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+.lastname, .firstname, .email, .phoneForm, .message  {
+    background:#242323aa;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-right: 0;
+}
+.lastname:hover, .firstname:hover, .email:hover, .phoneForm:hover, .message:hover  {
+    border: 2px solid  #FFF;
+    box-sizing: border-box;
+}
+.lastname::placeholder, .firstname::placeholder, .email::placeholder, .phoneForm::placeholder {
+    color:#909090;
+    padding-left: 10px;    
+}
+
+.lastname, .firstname, .email, .phoneForm {
+    height: 30px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.message{
+    height: 300px;
+    width: 604px;
+    color: #FFF;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.submitButton {
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    text-transform: uppercase;
+    color: #000;
+    background: #ac7241;
+    box-shadow: 2px 2px 2px 2px black;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.submitButton:hover {
+    border: 2px solid #E53411;
+    font-family: 'Anton', sans-serif;
+}
+

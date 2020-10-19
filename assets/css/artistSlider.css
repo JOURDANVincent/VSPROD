@@ -4,13 +4,13 @@
 	height: auto;
 	width: 100%;
 }
+
 .artistBox {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	height: auto;
 }
-
 
 .coyoteArtist, .tiezoArtist{
 	width: 50%;
@@ -57,7 +57,14 @@
 .coyoteImg, .tiezoImg{
 	width: 400px;
 	height: 400px;
+	filter: grayscale(100%);
+    transition: .3s ease-in-out;
 }
+.coyoteImg:hover, .tiezoImg:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
 #coyoteSliderBox, #tiezoSliderBox{
 	position: relative;
 	overflow: hidden;
@@ -87,4 +94,24 @@
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
+}
+
+.coyoteArticle, .tiezoArticle {
+	margin-bottom: 50px;
+	text-align: justify;
+}
+
+.coyoteArticle h2, .tiezoArticle h2 {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.2em;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 25px;
+	}
+
+.coyoteArticle p, .tiezoArticle p {
+    padding-left: 50px;
+    padding-right: 50px;
+    letter-spacing: 1px;
+    color: thistle;
 }

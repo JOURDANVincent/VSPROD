@@ -103,7 +103,7 @@ video {
 .navBar a:focus {
   background-color:#151515;
   opacity: 0.8;
-  color: #c87c60
+  color: #ac7241
 }
 .navBar a:hover {
   background-color: #111;
@@ -112,6 +112,7 @@ video {
 .navBar a:active {
   background-color:#252525;
   opacity: 0.8;
+  color: #ac7241
 }
 
 

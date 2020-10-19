@@ -16,7 +16,7 @@
 <body>
 
     <!--Video bg page de garde -->
-    <div id="homePage">
+    <div id="homePage" class="flashen">
         <video autoplay loop muted id="videobg" poster=none>
             <source src="assets/video/coyote-elblanco-rmk-comptearebours-car2 (online-video-cutter.com).mp4"
                 type="video/mp4">
@@ -47,16 +47,16 @@
     <!-- Bar de Navigation avec option sticky-->
     <ul class=navBar id=navBar>
         <li class=navItem style="float: left;"><a class=active href="#homePage">VSPROD</a></li>
-        <li class=navItem><a href="#accessPage">PLAN D'ACCES</a></li>
-        <li class=navItem><a href="#bloc4">CONTACT</a></li>
-        <li class=navItem><a href="#artistPage">NOS ARTISTES</a></li>
-        <li class=navItem><a href="#newalbum">PROMO ALBUM</a></li>
-        <li class=navItem><a href="#aboutPage">ABOUT US</a></li>
+        <li class=navItem><a class=flahsPage href="#accessPage">PLAN D'ACCES</a></li>
+        <li class=navItem><a class=flahsPage href="#bloc4">CONTACT</a></li>
+        <li class=navItem><a class=flahsPage href="#bloc3">NOS ARTISTES</a></li>
+        <li class=navItem><a class=flahsPage href="#newalbum">TOP ALBUM</a></li>
+        <li class=navItem><a class=flahsPage href="#aboutPage">ABOUT US</a></li>
     </ul>
 
 
     <!--BLOC 2 NEW ALBUM -->
-    <div id="newalbum">
+    <div id="newalbum" class="flashen">
         <div id="newalbum-left">
             <div class="titleBlink" id="title-newalbum">
                 <h2>NEW ALBUM</h2>
@@ -80,14 +80,13 @@
         </div> -->
             <div id="vignettealbum">
                 <img class="imgBlink" src="assets/img/coyote-img-newalbum.jpg" alt="Pochette Album">
-
-
             </div>
-            <div id="lecteur">
-            </div>
+            <div id="lecteur"></div>
             <iframe width="448" height="252" src="https://www.youtube.com/embed/tOz1v3KYWaY" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
+                <iframe src="https://open.spotify.com/embed/album/0Gd4iLMvWBOoYfWsG2BeZr" 
+                    width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
 
@@ -95,7 +94,7 @@
     <div id=bloc3>
 
         <!-- Section présentation des artistes -->
-        <div class=artistBox>
+        <div class=artistBox class="flashen">
 
             <div class=coyoteArtist>
 
@@ -111,7 +110,7 @@
                     </div>
                 
                 <article class="coyoteArticle">
-                    <h2>Coyote El Blanco</h2>
+                    <h2 class=titleColor>Coyote El Blanco</h2>
                     <p>Découvrez Coyote El Blanco avec "Solo Mais Serein", son tout nouveau projet. 
                         Jeune rookie originaire du Nord-pas-de-Calais, Coyote El Blanco, de son vrai nom Aurélien, 
                         est un nouvel élément en progression dans le rap game. 
@@ -145,7 +144,7 @@
                     </div>
                 
                     <article class="tiezoArticle">
-                        <h2>Tiezo</h2>
+                        <h2 class=titleColor>Tiezo</h2>
                         <p>Tiezo vient de sortir son nouveau single, "Le creux de ta main", un titre rap bien écrit,
                             dans un
                             style posé, au refrain chanté.
@@ -171,7 +170,7 @@
 
     <div id="bloc4">
         <!-- Formulaire de contact -->
-        <section class="contactUs">
+        <section class="contactUs" class="flashen">
             <div>
                 <h2>Nous contacter</h2>
             </div>

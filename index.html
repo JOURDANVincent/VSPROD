@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/transition.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/bloc2-newalbum.css">
+    <link rel="stylesheet" href="assets/css/mainStyle.css">
+    <link rel="stylesheet" href="assets/css/newAlbum.css">
     <link rel="stylesheet" href="assets/css/artistSlider.css">
-    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/formContact.css">
     <title>VS PROD - Label de production de Street Artiste / AMIENS</title>
 </head>
 
@@ -46,19 +46,18 @@
 
     <!-- Bar de Navigation avec option sticky-->
     <ul class=navBar id=navBar>
-        <li class=navItem style="float: left;"><a class=active href="#homePage">VSPROD</a></li>
+        <li class=navItem style="float: left;"><a class=active href="#homePage">HOME</a></li>
         <li class=navItem><a class=flahsPage href="#accessPage">PLAN D'ACCES</a></li>
-        <li class=navItem><a class=flahsPage href="#bloc4">CONTACT</a></li>
-        <li class=navItem><a class=flahsPage href="#bloc3">NOS ARTISTES</a></li>
-        <li class=navItem><a class=flahsPage href="#newalbum">TOP ALBUM</a></li>
-        <li class=navItem><a class=flahsPage href="#aboutPage">ABOUT US</a></li>
+        <li class=navItem><a class=flahsPage href="#formContactPage">CONTACT</a></li>
+        <li class=navItem><a class=flahsPage href="#artistBox">NOS ARTISTES</a></li>
+        <li class=navItem><a class=flahsPage href="#newAlbum">TOP ALBUM</a></li>
     </ul>
 
 
     <!--BLOC 2 NEW ALBUM -->
-    <div id="newalbum" class="flashen">
-        <div id="newalbum-left">
-            <div class="titleBlink" id="title-newalbum">
+    <div id="newAlbum" class="flashen">
+        <div id="newAlbum-left">
+            <div class="titleBlink" id="title-newAlbum">
                 <h2>NEW ALBUM</h2>
             </div>
             <div id="imgCoyoteDetourage">
@@ -74,107 +73,102 @@
                 rappelle que son EP "Solo mais Serein" est toujours disponible sur les plateformes de streaming !
             </p>
         </div>
-        <div id="newalbum-right">
-            <!-- <div class="image-clignote" id="title-newalbum">
-            <h2>NEW ALBUM</h2>
-        </div> -->
-            <div id="vignettealbum">
+
+        <div id="newAlbum-right">
+            <div id="vignetteAlbum">
                 <img class="imgBlink" src="assets/img/coyote-img-newalbum.jpg" alt="Pochette Album">
             </div>
             <div id="lecteur"></div>
-            <iframe width="448" height="252" src="https://www.youtube.com/embed/tOz1v3KYWaY" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-                <iframe src="https://open.spotify.com/embed/album/0Gd4iLMvWBOoYfWsG2BeZr" 
-                    width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/0Gd4iLMvWBOoYfWsG2BeZr" width="350" height="380"
+            frameborder="0" allowtransparency="true" allow="encrypted-media">
+            </iframe>
         </div>
+
+        
+    </div>
+
+    <div id="newAlbum-left-bottom">
+        <iframe id="enFumetteVideo" width="448" height="252" src="https://www.youtube.com/embed/tOz1v3KYWaY" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <p>
+            Coyote El Blanco, vît un succès d'autant plus grandissant lorsque son titre "Enfumette" dépassa le
+            million de vues sur Youtube. Ce succès lui apporta une plus grande visibilité et une nouvelle
+            possibilité de featuring avec d'autres rappeur et collab'.
+        </p>
     </div>
 
 
-    <div id=bloc3>
+    <!-- Section présentation des artistes -->
+    <div id="artistBox" class=artistBox class="flashen">
 
-        <!-- Section présentation des artistes -->
-        <div class=artistBox class="flashen">
-
-            <div class=coyoteArtist>
-
-                    <div id=coyoteSliderBox>
-                        <ul id="sCoyoteContent">
-                            <li><img class=coyoteImg src="DL/Coyote/coyote1.jpg" alt="c1"> </li>
-                            <li><img class=coyoteImg src="DL/Coyote/coyote2.jpg" alt="c2"></li>
-                            <li><img class=coyoteImg src="DL/Coyote/coyote3.jpg" alt="c3"></li>
-                            <li><img class=coyoteImg src="DL/Coyote/coyote4.jpg" alt="c4"></li>
-                            <li><img class=coyoteImg src="DL/Coyote/coyote5.jpg" alt="c5"></li>
-                            <li><img class=coyoteImg src="DL/Coyote/coyote6.jpg" alt="c6"></li>
-                        </ul>
-                    </div>
-                
-                <article class="coyoteArticle">
-                    <h2 class=titleColor>Coyote El Blanco</h2>
-                    <p>Découvrez Coyote El Blanco avec "Solo Mais Serein", son tout nouveau projet. 
-                        Jeune rookie originaire du Nord-pas-de-Calais, Coyote El Blanco, de son vrai nom Aurélien, 
-                        est un nouvel élément en progression dans le rap game. 
-                        Alors à peine âgé de 9 ans, Coyote El Blanco découvre le rap en compagnie de collègues plus âgés 
-                        vivants dans le même quartier. Émerveillé, il s’essaye alors à la discipline et participe mêmes à 
-                        des petits concerts organisé par la ville. <br> <br>
-
-                        En 2016, il est approché par un producteur qui partagera pour la première fois les freestyles du
-                        rappeur en herbe. Phrasé chargé, flow maîtrisé, le rappeur fait rapidement parler de lui. Il
-                        décide par la suite de monter un groupe avec son ami RMK avec qui il réalise En Fumette (1M de
-                        vues sur YouTube), C’est Comment (plus de 400 000 sur YouTube) et toute une liste de bangers
-                        partagés sur Daymolition, la célèbre chaîne YouTube dédié au rap. Deux ans plus tard, Coyote El
-                        Blanco se lance dans une carrière solo, déterminé à travailler pour obtenir ce qu’il mérite. En
-                        2019, il se présente au grand public avec un nouveau projet : "Solo Mais Serein". Pour présenter
-                        cette nouvelle réalisation, le jeune rappeur balance « BANG » un nouveau titre dans lequel il
-                        fait preuve d’une vivacité sans faille et d’un flow à vous couper le souffle.</p>
-                </article>
+        <div class=coyoteArtist>
+            <div id=coyoteSliderBox>
+                <ul id="sCoyoteContent">
+                    <li><img class=coyoteImg src="assets/img/coyote/coyote1.jpg" alt="c1"> </li>
+                    <li><img class=coyoteImg src="assets/img/coyote/coyote2.jpg" alt="c2"></li>
+                    <li><img class=coyoteImg src="assets/img/coyote/coyote3.jpg" alt="c3"></li>
+                    <li><img class=coyoteImg src="assets/img/coyote/coyote4.jpg" alt="c4"></li>
+                    <li><img class=coyoteImg src="assets/img/coyote/coyote5.jpg" alt="c5"></li>
+                    <li><img class=coyoteImg src="assets/img/coyote/coyote6.jpg" alt="c6"></li>
+                </ul>
             </div>
             
-            <div class=tiezoArtist>
+            <article class="coyoteArticle">
+                <h2 class=titleColor>Coyote El Blanco</h2>
+                <p>Découvrez Coyote El Blanco avec "Solo Mais Serein", son tout nouveau projet. 
+                    Jeune rookie originaire du Nord-pas-de-Calais, Coyote El Blanco, de son vrai nom Aurélien, 
+                    est un nouvel élément en progression dans le rap game. 
+                    Alors à peine âgé de 9 ans, Coyote El Blanco découvre le rap en compagnie de collègues plus âgés 
+                    vivants dans le même quartier. Émerveillé, il s’essaye alors à la discipline et participe mêmes à 
+                    des petits concerts organisé par la ville. <br> <br>
 
-                    <div id=tiezoSliderBox>
-                        <ul id="sTiezoContent">
-                            <li><img class=tiezoImg src="DL/Tiezo/Capture.PNG" alt="c1"> </li>
-                            <li><img class=tiezoImg src="DL/Tiezo/Capture2.PNG" alt="c2"></li>
-                            <li><img class=tiezoImg src="DL/Tiezo/Capture3.PNG" alt="c3"></li>
-                            <li><img class=tiezoImg src="DL/Tiezo/Capture4.PNG" alt="c4"></li>
-                            <li><img class=tiezoImg src="DL/Tiezo/Capture5.PNG" alt="c5"></li>
-                            <li><img class=tiezoImg src="DL/Tiezo/Capture6.PNG" alt="c6"></li>
-                        </ul>
-                    </div>
-                
-                    <article class="tiezoArticle">
-                        <h2 class=titleColor>Tiezo</h2>
-                        <p>Tiezo vient de sortir son nouveau single, "Le creux de ta main", un titre rap bien écrit,
-                            dans un
-                            style posé, au refrain chanté.
-                            On sent une envie de conter une histoire et de story-telling, qui vient en continitué du
-                            clip
-                            "Fernand n'attend" qui utilisait le même procédé
-                            essayant de sortir des codes des vidéos freestyles, se rapprochant des artistes pro, ce à
-                            quoi
-                            il
-                            tend à devenir.
-                        <br> <br>
-                    
-                    Approché par Kery James, Despo Rutti, Tiezo est en train de trouver sa voie, 
-                    et qui sait ce qu'il nous prépare pour cette fin d'année et pour 2021, en attendant, 
-                    nous vous laissons découvrir son talent...</p>
-                    </article>
-
+                    En 2016, il est approché par un producteur qui partagera pour la première fois les freestyles du
+                    rappeur en herbe. Phrasé chargé, flow maîtrisé, le rappeur fait rapidement parler de lui. Il
+                    décide par la suite de monter un groupe avec son ami RMK avec qui il réalise En Fumette (1M de
+                    vues sur YouTube), C’est Comment (plus de 400 000 sur YouTube) et toute une liste de bangers
+                    partagés sur Daymolition, la célèbre chaîne YouTube dédié au rap. Deux ans plus tard, Coyote El
+                    Blanco se lance dans une carrière solo, déterminé à travailler pour obtenir ce qu’il mérite. En
+                    2019, il se présente au grand public avec un nouveau projet : "Solo Mais Serein". Pour présenter
+                    cette nouvelle réalisation, le jeune rappeur balance « BANG » un nouveau titre dans lequel il
+                    fait preuve d’une vivacité sans faille et d’un flow à vous couper le souffle.</p>
+            </article>
+        </div>
+        
+        <div class=tiezoArtist>
+            <div id=tiezoSliderBox>
+                <ul id="sTiezoContent">
+                    <li><img class=tiezoImg src="assets/img/tiezo/tiezo1.jpg" alt="c1"></li>
+                    <li><img class=tiezoImg src="assets/img/tiezo/tiezo.jpg" alt="c2"></li>
+                    <li><img class=tiezoImg src="assets/img/tiezo/tiezo2.jpg" alt="c3"></li>
+                    <li><img class=tiezoImg src="assets/img/tiezo/tiezo.jpg" alt="c4"></li>
+                    <li><img class=tiezoImg src="assets/img/tiezo/tiezo3.jpg" alt="c5"></li>
+                    <li><img class=tiezoImg src="assets/img/tiezo/tiezo.jpg" alt="c6"></li>
+                </ul>
             </div>
         
+            <article class="tiezoArticle">
+                <h2 class=titleColor>Tiezo</h2>
+                <p>Tiezo vient de sortir son nouveau single, "Le creux de ta main", un titre rap bien écrit,dans un
+                    style posé, au refrain chanté. On sent une envie de conter une histoire et de story-telling, qui vient en continitué du clip
+                    "Fernand n'attend" qui utilisait le même procédé essayant de sortir des codes des vidéos freestyles, se rapprochant des artistes pro, ce à
+                    quoi il tend à devenir.
+                    <br> <br>
+                    Approché par Kery James, Despo Rutti, Tiezo est en train de trouver sa voie, 
+                    et qui sait ce qu'il nous prépare pour cette fin d'année et pour 2021, en attendant, 
+                    nous vous laissons découvrir son talent...
+                </p>
+            </article>
         </div>
-
     </div>
 
-    <div id="bloc4">
-        <!-- Formulaire de contact -->
-        <section class="contactUs" class="flashen">
-            <div>
-                <h2>Nous contacter</h2>
-            </div>
 
+    <!-- Formulaire de contact -->
+    <div id="formContactPage">
+        
+        <section class="contactUs" class="flashen">
+            <div><h2>Nous contacter</h2></div>
             <form class="contactForm" action="" method="get">
                 <div>
                     <input class="lastname" type="text" name="lastname" id="lastname" required placeholder="Nom">
@@ -219,7 +213,7 @@
 
 </body>
 
-<footer>
+<!-- <footer>
     <ul class=footerLink>
         <l><a href=""><img class="footerLink" src="assets/img/twitter.svg" alt=""></a></l>
         <l><a href=""><img class="footerLink" src="assets/img/facebook.svg" alt=""></a></l>
@@ -227,7 +221,7 @@
         <l><a href=""><img class="footerLink" src="assets/img/" alt=""></a></l>
         <l><a href=""><img class="footerLink" src="assets/img/" alt=""></a></l>
     </ul>
-</footer>
+</footer> -->
 
 
 </html>

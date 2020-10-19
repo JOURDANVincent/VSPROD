@@ -35,7 +35,6 @@ video {
   
 }
 .textLabelBox h2, .textLabelBox h3, .textLabelBox p {
-  
   margin: 0;
   padding: 0;
 }
@@ -64,7 +63,7 @@ video {
   position: absolute;
   width: 64%;
   left: 18%;
-  bottom: 45px;
+  bottom: 30px;
   text-align: center;
   font-size: 20px;
   color: #808080;

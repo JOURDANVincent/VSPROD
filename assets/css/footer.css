@@ -1,12 +1,10 @@
 /* Section footer */
-
 .footer-distributed {
     background: #000;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    /* font: bold 16px sans-serif; */
     padding: 55px 50px;
     color: white;
     font-family: 'Anton', sans-serif;
@@ -21,17 +19,13 @@
  .footerLogo {
     width: 20%;
  }
-/* Footer left */
 
+/* Footer left */
 .footer-distributed .footer-left {
     width: 40%;
 }
 
-/* The company logo */
-
-
 /* Footer links */
-
 .footer-distributed .footer-links {
     color: #ffffff;
     margin: 20px 0 12px;
@@ -55,7 +49,6 @@
 }
 
 /* Footer Center */
-
 .footer-distributed .footer-center {
     width: 35%;
 }
@@ -106,7 +99,6 @@
 }
 
 /* Footer Right */
-
 .footer-distributed .footer-right {
     width: 20%;
 }
